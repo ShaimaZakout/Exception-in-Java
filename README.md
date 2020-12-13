@@ -6,5 +6,10 @@ B. Derive exception classes from the class you wrote in the previous exercise. E
 new class should indicate a specific kind of error. For example,
 InvalidHourException could be used to indicate that the value entered for hour
 was not an integer in the range 1 to 12.
-C. Write a class TimeOfDay that uses the exception classes defined in the previousexercise. Give it a method setTimeTo(timeString) that changes the time if timeString corresponds to a valid time of day. If not, it should throw an exception of the appropriate type.
-D. Write code that reads a string from the keyboard and uses it to set the variable myTime of type TimeOfDay from the previous exercise. Use try-catch blocks to guarantee that myTime is set to a valid time.
+C. Write a class TimeOfDay that uses the exception classes defined in the previous
+exercise. Give it a method setTimeTo(timeString) that changes the time if
+timeString corresponds to a valid time of day. If not, it should throw an
+exception of the appropriate type.
+D. Write code that reads a string from the keyboard and uses it to set the variable
+myTime of type TimeOfDay from the previous exercise. Use try-catch blocks to
+guarantee that myTime is set to a valid time.
